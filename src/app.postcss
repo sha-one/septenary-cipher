@@ -1,0 +1,37 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Page */
+
+body {
+  @apply bg-slate-900 text-gray-300;
+}
+
+h1 {
+  @apply text-3xl;
+}
+h2 {
+  @apply text-2xl;
+}
+h3 {
+  @apply text-xl;
+}
+h4 {
+  @apply text-lg;
+}
+
+h1, h2, h3, h4 {
+  @apply font-light pb-4 ;
+}
+
+/* Content */
+
+.content-section {
+  @apply py-8 px-12;
+}
+
+.content-section-inner {
+  @apply max-w-6xl mx-auto;
+}
